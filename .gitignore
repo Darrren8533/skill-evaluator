@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Data cache (large files, not needed in repo)
+data/skills_cache.json
+data/evaluation_results.json
+
+# Generated test skills (except samples)
+tests/sample_skills/generated_*.md
+
+# Env / secrets
+.env
+*.key
+
+# OS
+.DS_Store
+desktop.ini
